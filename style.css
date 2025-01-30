@@ -1,0 +1,120 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+    html,body{
+    width: 100%;
+    height: 100%;
+    }
+    .main{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(25, 24, 24);
+        display: flex;
+    }
+    #elem1{
+        height: 100%;
+        width: 50%;
+    }
+    #orange{
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        height: 60%;
+        background-color: orangered;
+        border-radius: 5%;
+        display: flex;
+        text-align: right;
+   }
+   #orange h3{
+    margin: 10px;
+    color: white;
+   }
+    #orange-red{
+        padding-top: 20px;
+        margin-left: 40px;
+        margin-top: 20px;
+        height: 27%;
+        background: linear-gradient(to right top,rgb(254, 143, 109) ,rgb(250, 96, 40) , rgb(217, 9, 9) , black);
+        border-radius: 5%;
+    }
+    #orange-red h3{
+        margin: 10px;
+        color: white;
+       }
+    #elem2{
+        height: 100%;
+        width: 25%;
+    }
+    #black{
+       padding-top: 20px;
+       margin: 20px;
+       height: 60%;
+       width: 94%;
+       background-color: black;
+       border-radius: 5% ;
+    }
+    #black h3{
+        margin: 10px;
+        color: white;
+       }
+    #light-grey{
+        padding-top:20px;
+        margin-left:20px;
+        height: 27%;
+        background-color:rgb(170, 168, 168);
+        border-radius: 5%   
+     }
+     #light-grey h3{
+        margin: 10px;
+        color: white;
+       }
+     #elem3{
+        height: 100%;
+        width: 25%;
+      }
+    #white{
+        padding-top: 20px;
+        margin: 20px;
+        margin-right: 50px;
+        height: 27%;
+        background-color:white;
+        border-radius: 5%   
+     }
+     #white h3{
+        margin: 10px;
+        color:black;
+       }
+     #grey{
+        padding-top: 20px;
+        margin: 20px;
+        margin-right: 50px;
+        height: 27%;
+        background-color:grey;
+        border-radius: 5%   
+     }
+     #grey h3{
+        margin: 10px;
+        color: white;
+       }
+     #dark-grey{
+        padding-top: 20px;
+        margin: 20px;
+        margin-right: 50px;
+        height: 27%;
+        background-color:rgb(59, 58, 58);
+        border-radius: 5%   
+     }
+     #dark-grey h3{
+        margin: 10px;
+        color: white;
+       }
+     #info{
+        height: 10%;
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-size:20px;
+     }
+     
